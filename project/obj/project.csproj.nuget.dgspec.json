@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivan_\\OneDrive\\Рабочий стол\\C#\\VisualStudio\\project\\project.csproj": {}
+    "C:\\Users\\shalutov\\Desktop\\C#\\VisualStudio\\project\\project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivan_\\OneDrive\\Рабочий стол\\C#\\VisualStudio\\project\\project.csproj": {
+    "C:\\Users\\shalutov\\Desktop\\C#\\VisualStudio\\project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan_\\OneDrive\\Рабочий стол\\C#\\VisualStudio\\project\\project.csproj",
+        "projectUniqueName": "C:\\Users\\shalutov\\Desktop\\C#\\VisualStudio\\project\\project.csproj",
         "projectName": "project",
-        "projectPath": "C:\\Users\\ivan_\\OneDrive\\Рабочий стол\\C#\\VisualStudio\\project\\project.csproj",
-        "packagesPath": "C:\\Users\\ivan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan_\\OneDrive\\Рабочий стол\\C#\\VisualStudio\\project\\obj\\",
+        "projectPath": "C:\\Users\\shalutov\\Desktop\\C#\\VisualStudio\\project\\project.csproj",
+        "packagesPath": "C:\\Users\\shalutov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shalutov\\Desktop\\C#\\VisualStudio\\project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\shalutov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -37,8 +34,7 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -54,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     }

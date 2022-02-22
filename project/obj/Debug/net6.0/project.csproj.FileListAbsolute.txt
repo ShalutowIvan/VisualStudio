@@ -28,3 +28,4 @@ C:\Users\ivan_\OneDrive\Рабочий стол\C#\VisualStudio\project\obj\Debu
 C:\Users\ivan_\OneDrive\Рабочий стол\C#\VisualStudio\project\obj\Debug\net6.0\ref\project.dll
 C:\Users\ivan_\OneDrive\Рабочий стол\C#\VisualStudio\project\obj\Debug\net6.0\project.pdb
 C:\Users\ivan_\OneDrive\Рабочий стол\C#\VisualStudio\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\net6.0\project.pdb
