@@ -10,21 +10,21 @@ namespace project
         // в) массив оценок по каждой дисциплине за семестр (от 2 до 5).
         // Информация о студенте является элементом массива М[ ].
         // Требуется определить фамилии студентов, которые будут включены в приказ на отчисление по результатам сессии (условие – по трем или более дисциплинам каждая оценка — двойка).
-        protected string fio;
-        protected string gruppa;
-        protected int[] matematika;
-        // private int[] informatika;
-        protected int[] enlgish;
-        protected int[] russian;
-        protected int[] litra;
-        protected int[] obg;
-        //   private int[] history;
+        private string fio;
+        private string gruppa;
+        private int[] matematika;
+        private int[] informatika;
+        private int[] english;
+        private int[] russian;
+        private int[] litra;
+        private int[] obg;
+        private int[] history;
 
-        protected int[] fizra;
-        protected int[] biologia;
-        //  private int[] ekonomika;
-        //  private int[] buh_uchet;
-        protected int[] pravo;
+        private int[] fizra;
+        private int[] biologia;
+        private int[] ekonomika;
+        private int[] buh_uchet;
+        private int[] pravo;
 
         public string Fio
         {
@@ -45,7 +45,7 @@ namespace project
             {
                 return this.gruppa;
             }
-            private set
+            set
             {
 
             }
@@ -57,30 +57,30 @@ namespace project
             {
                 return matematika;
             }
-            private set
+            set
             {
 
             }
         }
-        // public int[] Informatika
-        // {
-        //     get
-        //     {
-        //         return informatika;
-        //     }
-        //     private set
-        //     {
-
-        //     }
-        // }
-
-        public int[] Enlgish
+        public int[] Informatika
         {
             get
             {
-                return enlgish;
+                return informatika;
             }
-            private set
+            set
+            {
+
+            }
+        }
+
+        public int[] English
+        {
+            get
+            {
+                return english;
+            }
+            set
             {
 
             }
@@ -104,7 +104,7 @@ namespace project
             {
                 return litra;
             }
-            private set
+            set
             {
 
             }
@@ -116,23 +116,23 @@ namespace project
             {
                 return obg;
             }
-            private set
+            set
             {
 
             }
         }
 
-        // public int[] History
-        // {
-        //     get
-        //     {
-        //         return history;
-        //     }
-        //     private set
-        //     {
+        public int[] History
+        {
+            get
+            {
+                return history;
+            }
+            set
+            {
 
-        //     }
-        // }
+            }
+        }
         public int[] Fizra
         {
             get
@@ -155,28 +155,28 @@ namespace project
 
             }
         }
-        // public int[] Ekonomika
-        // {
-        //     get
-        //     {
-        //         return ekonomika;
-        //     }
-        //     private set
-        //     {
+        public int[] Ekonomika
+        {
+            get
+            {
+                return ekonomika;
+            }
+            set
+            {
 
-        //     }
-        // }
-        // public int[] Buh_uchet
-        // {
-        //     get
-        //     {
-        //         return buh_uchet;
-        //     }
-        //     private set
-        //     {
+            }
+        }
+        public int[] Buh_uchet
+        {
+            get
+            {
+                return buh_uchet;
+            }
+            set
+            {
 
-        //     }
-        // }
+            }
+        }
         public int[] Pravo
         {
             get
@@ -190,33 +190,108 @@ namespace project
         }
 
 
-
-        public void assign_value(string fio, string gruppa, int[] matematika, int[] enlgish, int[] russian, int[] litra, int[] obg, int[] fizra, int[] biologia, int[] pravo)
+//функция присвоения значений для студента прогера
+        public void assign_proger(string fio, string gruppa, int[] matematika, int[] english, int[] russian, int[] litra, int[] obg, int[] fizra, int[] biologia, int[] pravo, int[] informatika)
         {
             this.fio = fio;
             this.gruppa = gruppa;
             this.matematika = matematika;
-            //   this.informatika = informatika;
-            this.enlgish = enlgish;
+            this.english = english;
             this.russian = russian;
             this.litra = litra;
             this.obg = obg;
-            //   this.history = history;
             this.fizra = fizra;
             this.biologia = biologia;
-            //   this.ekonomika = ekonomika;
-            //    this.buh_uchet = buh_uchet;
             this.pravo = pravo;
+            this.informatika = informatika;
         }
 
-
-
-
-        public base_students(string fio, string gruppa, int[] matematika, int[] enlgish, int[] russian, int[] litra, int[] obg, int[] fizra, int[] biologia, int[] pravo)
+//функция присвоения значений для студента эконома
+public void assign_ekonom(string fio, string gruppa, int[] matematika, int[] english, int[] russian, int[] obg, int[] fizra, int[] biologia, int[] pravo, int[] ekonomika)
         {
-            this.assign_value(fio, gruppa, matematika, enlgish, russian, litra, obg, fizra, biologia, pravo);
+            this.fio = fio;
+            this.gruppa = gruppa;
+            this.matematika = matematika;
+            this.english = english;
+            this.russian = russian;
+            this.obg = obg;
+            this.fizra = fizra;
+            this.biologia = biologia;
+            this.pravo = pravo;
+            this.ekonomika = ekonomika;
         }
 
+//функция присвоения значений для студента бухучета
+public void assign_buhuchet(string fio, string gruppa, int[] matematika, int[] russian, int[] obg, int[] fizra, int[] biologia, int[] pravo, int[] buh_uchet)
+        {
+            this.fio = fio;
+            this.gruppa = gruppa;
+            this.matematika = matematika;
+            this.russian = russian;
+            this.obg = obg;
+            this.fizra = fizra;
+            this.biologia = biologia;
+            this.pravo = pravo;
+            this.buh_uchet = buh_uchet;
+        }
+
+//функция присвоения значений для студента историка
+public void assign_historical(string fio, string gruppa, int[] russian, int[] litra, int[] fizra, int[] biologia, int[] pravo, int[] history)
+        {
+            this.fio = fio;
+            this.gruppa = gruppa;
+            this.russian = russian;
+            this.litra = litra;
+            this.fizra = fizra;
+            this.biologia = biologia;
+            this.pravo = pravo;
+            this.history = history;
+        }
+
+
+
+
+
+//конструктор прогер
+        public base_students(string fio, string gruppa, int[] matematika, int[] english, int[] russian, int[] litra, int[] obg, int[] fizra, int[] biologia, int[] pravo, int[] informatika)
+        {
+            if(gruppa == "1ПРОГР1"){
+            System.Console.WriteLine("Программисты: ");
+            }
+            this.assign_proger(fio, gruppa, matematika, english, russian, litra, obg, fizra, biologia, pravo, informatika);
+            // ничего не удалял
+        }
+
+
+//конструктор эконом
+        public base_students(string fio, string gruppa, int[] matematika, int[] english, int[] russian, int[] obg, int[] fizra, int[] biologia, int[] pravo, int[] ekonomika)
+        {
+            if(gruppa == "1ЭКОНОМ1"){
+            System.Console.WriteLine("Экономисты: ");
+            }
+            this.assign_ekonom(fio, gruppa, matematika, english, russian, obg, fizra, biologia, pravo, ekonomika);
+            //убрал литру
+        }
+
+//конструктор бухучет
+        public base_students(string fio, string gruppa, int[] matematika, int[] russian, int[] obg, int[] fizra, int[] biologia, int[] pravo, int[] buh_uchet)
+        {
+           if(gruppa == "1БУХ1"){
+            System.Console.WriteLine("Бухгалтера: ");
+            }
+            this.assign_buhuchet(fio, gruppa, matematika, russian, obg, fizra, biologia, pravo, buh_uchet);
+            //убрал литру и англ
+        }
+
+//конструктор исторический
+        public base_students(string fio, string gruppa, int[] russian, int[] litra, int[] fizra, int[] biologia, int[] pravo, int[] history)
+        {
+           if(gruppa == "1ИСТ1"){
+            System.Console.WriteLine("Историки: ");
+            }
+            this.assign_historical(fio, gruppa, russian, litra, fizra, biologia, pravo, history);
+//убрал математику и англ и обж
+        }
 
 
 

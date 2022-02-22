@@ -1,0 +1,26 @@
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.csprojAssemblyReference.cache
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.AssemblyInfoInputs.cache
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.AssemblyInfo.cs
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.csproj.CoreCompileInputs.cache
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.csprojAssemblyReference.cache
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.AssemblyInfoInputs.cache
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.AssemblyInfo.cs
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.csproj.CoreCompileInputs.cache
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.exe
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.deps.json
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.json
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.dev.json
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.dll
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.pdb
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.dll
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.pdb
+C:\Users\shalutov\Desktop\дичь\рабочий стол\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.genruntimeconfig.cache
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.exe
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.deps.json
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.json
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.dev.json
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.dll
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\bin\Debug\netcoreapp3.1\project.pdb
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.dll
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.pdb
+C:\Users\shalutov\Desktop\C#\VisualStudio\project\obj\Debug\netcoreapp3.1\project.genruntimeconfig.cache
